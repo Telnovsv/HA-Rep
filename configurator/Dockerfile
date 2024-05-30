@@ -25,3 +25,5 @@ COPY rootfs /
 
 # Health check
 HEALTHCHECK CMD curl --fail http://127.0.0.1:8099 || exit 1
+
+#test
